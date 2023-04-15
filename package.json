@@ -1,0 +1,33 @@
+{
+  "name": "glucose-mod",
+  "version": "1.0.0",
+  "description": "Minetest mod that glues everything together for krystopoeia server source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roguecircuitry/krystopoeia.git"
+  },
+  "keywords": [
+    "glue",
+    "code",
+    "mod"
+  ],
+  "author": "Rogue Circuitry Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roguecircuitry/krystopoeia/issues"
+  },
+  "homepage": "https://github.com/roguecircuitry/krystopoeia#readme",
+  "devDependencies": {
+    "@repcomm/mt-3d-armor-api": "^1.0.1",
+    "@repcomm/mt-api": "^1.0.1",
+    "lua-types": "^2.13.1",
+    "typescript": "^5.0.3",
+    "typescript-to-lua": "^1.14.0"
+  }
+}
